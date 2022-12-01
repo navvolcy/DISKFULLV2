@@ -83,13 +83,14 @@ function setFlags() {
                 break
             case '-f':
             case '--filter':
-                //var files = fsPromises.readfile(`${filename}`)
-               // usage().f
+                glob("*.js", options, usage())
+                console.log(glob)
+               
                 break 
             case '-m':
             case '-metric':
                 metric = true
-                break 
+                break  
             case '-s':
             case '--sort':
                 console.log('sort stub')
