@@ -1,0 +1,19 @@
+{
+  "name": "diskffullv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readDir.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "glob": "^7.2.0",
+    "promise": "^8.1.0"
+  }
+}
