@@ -78,13 +78,13 @@ function setFlags() {
                 break
             case '-c':
             case '--config':
-                const config = require("./config.json")
-                console.log("current",config);
+              
+                                 
+                
                 break
             case '-f':
             case '--filter':
-                glob("*.js", options, usage())
-                console.log(glob)
+               
                
                 break 
             case '-m':
